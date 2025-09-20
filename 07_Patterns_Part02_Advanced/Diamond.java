@@ -1,7 +1,7 @@
 public class Diamond {
 
     public static void diamond (int n) {
-
+        // Outer loop
         // 1st half
         for(int i=1; i<=n; i++) {
             // spaces
@@ -15,6 +15,7 @@ public class Diamond {
             System.out.println();
         }
 
+        // Outer loop
         // 2nd half
         for (int i = n; i >= 1; i--) {
             // spaces
