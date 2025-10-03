@@ -5,8 +5,10 @@ public class Subarrays_max {
     public static void maxSubArraySum(int numbers[]) {
         int currSum = 0;
         int maxSum = Integer.MIN_VALUE;
+        // outer loop
         for (int i = 0; i < numbers.length; i++) {
             int start = i;
+            // inner loop
             for (int j = i; j < numbers.length; j++) {
                 int end = j;
                 currSum = 0;
